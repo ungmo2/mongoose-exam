@@ -23,8 +23,8 @@ $ npm start
 | API                      | Method | URL
 |:-------------------------|:-------|:----------------------
 | Find All                 | GET    | /todos
-| Find One by todoid       | GET    | /todos/todoid/:todoid
+| Find One by todo id      | GET    | /todos/id/:id
 | Create new todo document | POST   | /todos
-| Update by todoid         | PUT    | /todos/todoid/:todoid
+| Update by todo id        | PUT    | /todos/id/:id
 | Delete All               | DELETE | /todos
-| Delete by todoid         | DELETE | /todos/todoid/:todoid
+| Delete by todo id        | DELETE | /todos/id/:id

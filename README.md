@@ -12,15 +12,22 @@ $ cd db-server
 $ npm install
 ```
 
-# 3. serve
+# 3. Create .env file
+
+```
+PORT=<server-port>
+MONGO_URI=mongodb://<username>:<password>@<host>:<port>/<dbname>
+```
+
+# 4. serve
 
 ```
 $ npm start
 ```
 
-# 4. APIs
+# 5. APIs
 
-| API                      | Method | URL
+| APIs                     | Method | URL
 |:-------------------------|:-------|:----------------------
 | Find All                 | GET    | /todos
 | Find One by todo id      | GET    | /todos/id/:id

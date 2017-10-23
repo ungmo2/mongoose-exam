@@ -12,20 +12,24 @@ $ cd db-server
 $ npm install
 ```
 
-# 3. Create .env file
+# 3. Create Database
+
+[mLab Hosting service](http://poiemaweb.com/mongdb-basics#43-mlab-hosting-service)
+
+# 4. Create .env file
 
 ```
 PORT=<server-port>
 MONGO_URI=mongodb://<username>:<password>@<host>:<port>/<dbname>
 ```
 
-# 4. serve
+# 5. serve
 
 ```
 $ npm start
 ```
 
-# 5. APIs
+# 6. APIs
 
 | APIs                     | Method | URL
 |:-------------------------|:-------|:----------------------
